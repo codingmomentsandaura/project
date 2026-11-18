@@ -59,7 +59,7 @@ int main()
     {
         
         ordenarRecetas(recetas, cantidadRecetas);
-        printf("Bienvenidx, %s\n", Usuario);
+        printf("Bienvenidx, %s\n", Usuario.usuarioNombre);
         mostrarmenu(1);
         opcion = leerEnteroEntre(1, 10, "Ingrese una opcion: ");
         clear_screen();
